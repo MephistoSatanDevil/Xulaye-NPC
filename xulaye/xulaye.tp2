@@ -21,6 +21,7 @@ ALWAYS
   LAF HANDLE_CHARSETS
     INT_VAR
       infer_charsets = 1
+	  //from_utf8 = 1
     STR_VAR
       tra_path = EVAL ~%MOD_FOLDER%/Translations~
       noconvert_array = Xulayenoconvert
@@ -33,6 +34,9 @@ LANGUAGE ~English~ ~english~ ~xulaye/translations/english/setup.tra~
                              
 LANGUAGE ~Russian~ ~russian~ ~xulaye/translations/russian/setup.tra~
                              ~xulaye/translations/russian/item_usability.tra~
+
+LANGUAGE ~Simplified Chinese~ ~schinese~ ~xulaye/translations/schinese/setup.tra~
+                             ~xulaye/translations/schinese/item_usability.tra~
 
 // --------------------------------------------
 // Xulaye NPC Mod v1.2
